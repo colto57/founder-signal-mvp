@@ -317,8 +317,7 @@
     if (ti.overweighted.length) {
       owCard.appendChild(el('ul', { class: 'list' }, ti.overweighted.map(function (r) {
         return el('li', {}, [
-          el('span', {}, shortLabel(r.key, r.label) + ': we favor this when deciding who to fund, but it barely predicts who graduates.'),
-          el('span', { class: 'meta', text: 'watch this' })
+          el('span', {}, shortLabel(r.key, r.label) + ': we favor this when deciding who to fund, but it barely predicts who graduates.')
         ]);
       })));
     } else {
