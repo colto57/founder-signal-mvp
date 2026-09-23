@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Founder Signal System, MVP</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="topbar" id="topbar">
+  <div class="banner" role="note">
+    <strong>Synthetic data.</strong> Every company, fund, founder score, intangible, and outcome in this demo is fabricated. Nothing is derived from any real company, fund, or CRM record.
+  </div>
+  <div class="topbar-row">
+    <div class="brand">
+      <span class="title"><strong>Founder Signal</strong> <span class="accent">System</span></span>
+      <span class="subtitle">MVP prototype, as of <span id="asOf">2026-09-22</span></span>
+    </div>
+    <div class="controls" id="controls"></div>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="section headline" id="sec-headline">
+    <div class="cards" id="headline-body"></div>
+  </section>
+
+  <section class="section" id="sec-population">
+    <div class="section-head">
+      <h2><span class="kicker">1</span>Population summary</h2>
+      <p class="section-note" id="population-note"></p>
+    </div>
+    <div class="cards" id="population-cards"></div>
+  </section>
+
+  <section class="section" id="sec-lift">
+    <div class="section-head">
+      <h2><span class="kicker">2</span>Dimension lift</h2>
+      <p class="section-note">Graduation rate of founders scored 4 or 5 divided by the rate of founders scored 1 to 3, per dimension, at entry (stage 2 if present, else stage 1). Read the "Read" column first; the numbers next to it are what it is based on.</p>
+    </div>
+    <div class="card">
+      <div class="legend" id="lift-legend"></div>
+      <div class="chart-box" style="height: 360px;"><canvas id="lift-chart"></canvas></div>
+      <p class="explainer" id="lift-explainer"></p>
+    </div>
+    <div class="card pad-0">
+      <div class="section-head" style="padding: 12px 16px 0;">
+        <h3>Lift table</h3>
+        <div class="control"><span class="control-label">View</span><div class="segmented" id="lift-view"></div></div>
+      </div>
+      <div class="tbl-wrap" id="lift-table"></div>
+    </div>
+  </section>
+
+  <section class="section" id="sec-veto">
+    <div class="section-head">
+      <h2><span class="kicker">3</span>Veto and spike</h2>
+      <p class="section-note">Graduation rate for founders who scored a 1 on at least one dimension, or a 5 on at least one dimension, versus founders who didn't. Resolved outcomes only.</p>
+    </div>
+    <div class="cards" id="veto-cards"></div>
+  </section>
+
+  <section class="section" id="sec-decision">
+    <div class="section-head">
+      <h2><span class="kicker">4</span>Decision quality</h2>
+      <p class="section-note">Resolved companies only. Graduated means an up round inside the stage window.</p>
+    </div>
+    <div class="grid-2-1">
+      <div class="card"><div class="quad" id="decision-quad"></div></div>
+      <div class="cards" id="decision-cards" style="grid-template-columns: 1fr;"></div>
+    </div>
+    <div class="grid-2">
+      <div class="card">
+        <h3>Judgment misses: founder-driven passes that graduated</h3>
+        <ul class="list" id="decision-misses"></ul>
+      </div>
+      <div class="card">
+        <h3>Invested with a veto: a 1 at entry</h3>
+        <ul class="list" id="decision-vetoes"></ul>
+      </div>
+    </div>
+  </section>
+
+  <details class="supporting" id="supporting-detail">
+    <summary>Supporting detail: persona mix, stage 1 to 2 drift, intangibles, MOIC, rater calibration, data completeness</summary>
+    <div class="supporting-body">
+
+    <section class="section" id="sec-persona">
+      <div class="section-head">
+        <h2>Persona x vertical</h2>
+        <p class="section-note">Founder background by vertical family. Cell shows graduated/resolved and (invested+passed) founders. Dashed cells have fewer than 4 resolved founders.</p>
+      </div>
+      <div class="card pad-0"><div class="tbl-wrap" id="persona-grid"></div></div>
+    </section>
+
+    <section class="section" id="sec-stage">
+      <div class="section-head">
+        <h2>Stage 1 to stage 2</h2>
+        <p class="section-note">Mean change in score from first meeting to diligence, split by outcome. Founders with both stages only.</p>
+      </div>
+      <div class="card">
+        <div class="legend" id="stage-legend"></div>
+        <div class="chart-box" style="height: 300px;"><canvas id="stage-chart"></canvas></div>
+        <p class="explainer" id="stage-summary"></p>
+      </div>
+    </section>
+
+    <section class="section" id="sec-intangibles">
+      <div class="section-head">
+        <h2>Intangibles</h2>
+        <p class="section-note">The three words, the lean-in sentence and the worry sentence written at entry, read against outcomes.</p>
+      </div>
+      <div class="grid-2">
+        <div class="card"><h3 id="words-grad-title">Words: graduated</h3><ul class="wordlist" id="words-grad"></ul></div>
+        <div class="card"><h3 id="words-not-title">Words: not graduated</h3><ul class="wordlist" id="words-not"></ul></div>
+      </div>
+      <div class="grid-2">
+        <div class="card">
+          <h3>Theme by outcome</h3>
+          <div class="legend" id="theme-legend"></div>
+          <div class="chart-box" style="height: 320px;"><canvas id="theme-chart"></canvas></div>
+        </div>
+        <div class="section" style="gap: 12px;">
+          <div class="cards" id="specificity-cards"></div>
+          <div class="card"><h3>Worry intensity proxy</h3><div id="worry-table"></div></div>
+          <div class="card"><h3>Would back again: entry to latest QPR</h3><div id="backagain-matrix"></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="sec-moic">
+      <div class="section-head">
+        <h2>MOIC panel</h2>
+        <p class="section-note">Gross MOIC by quarters since entry for invested companies. Thin gray lines are companies, blue is the portfolio median.</p>
+      </div>
+      <div class="grid-2-1">
+        <div class="card">
+          <div class="legend" id="moic-legend"></div>
+          <div class="chart-box" style="height: 320px;"><canvas id="moic-chart"></canvas></div>
+          <p class="explainer" id="moic-note"></p>
+        </div>
+        <div class="cards" id="moic-cards" style="grid-template-columns: 1fr;"></div>
+      </div>
+    </section>
+
+    <section class="section" id="sec-raters">
+      <div class="section-head">
+        <h2>Rater calibration</h2>
+        <p class="section-note">Per rater, across all assessments in the current filter. The last column is a small-n read and should not be over-interpreted.</p>
+      </div>
+      <div class="card pad-0"><div class="tbl-wrap" id="rater-table"></div></div>
+    </section>
+
+    <section class="section" id="sec-completeness">
+      <div class="section-head">
+        <h2>Data completeness</h2>
+        <p class="section-note">What is missing, censored or stale in the current filter.</p>
+      </div>
+      <div class="grid-2">
+        <div class="card pad-0"><div id="completeness-table"></div></div>
+        <div class="cards" id="completeness-cards"></div>
+      </div>
+    </section>
+
+    </div>
+  </details>
+
+  <section class="section" id="sec-explorer">
+    <div class="section-head">
+      <h2><span class="kicker">5</span>Founder explorer</h2>
+      <p class="section-note">Click a header to sort, click a row for the detail card.</p>
+    </div>
+    <div class="explorer-controls" id="explorer-controls"></div>
+    <div class="card pad-0"><div class="tbl-wrap" id="explorer-table"></div></div>
+    <div class="card" id="explorer-detail"><p class="muted">Select a founder to see the profile.</p></div>
+  </section>
+
+  <section class="section" id="sec-form">
+    <div class="section-head">
+      <h2><span class="kicker">6</span>New assessment</h2>
+      <p class="section-note">Adds a synthetic assessment to this browser only. Stored locally, re-computes every section live.</p>
+    </div>
+    <div class="card"><form id="assessment-form" class="form" novalidate></form></div>
+  </section>
+
+</main>
+
+<footer>Founder Signal System MVP. Synthetic data, prototype for internal discussion only.</footer>
+
+<script src="../data/data.js"></script>
+<script src="analytics.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.5.0/dist/chart.umd.js" integrity="sha384-iU8HYtnGQ8Cy4zl7gbNMOhsDTTKX02BTXptVP/vqAWIaTfM7isw76iyZCsjL2eVi" crossorigin="anonymous"></script>
+<script src="app.js"></script>
+</body>
+</html>

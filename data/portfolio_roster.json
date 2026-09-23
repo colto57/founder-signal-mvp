@@ -1,0 +1,512 @@
+[
+  {
+    "affinity_entity_id": 872520922,
+    "name": "Amberfield Capital",
+    "domain": "amberfieldcapital.com",
+    "status": "Portfolio Fund3",
+    "taxonomy": "Capital markets",
+    "series": "Series A",
+    "list_created_at": "2024-10-17T12:09:07Z",
+    "followon_entry": false
+  },
+  {
+    "affinity_entity_id": 822146506,
+    "name": "Brackenwell",
+    "domain": "brackenwell.io",
+    "status": "Portfolio Fund3",
+    "taxonomy": "Data & analytics (incl. AI)",
+    "series": "Series A",
+    "list_created_at": "2026-01-05T16:36:06Z",
+    "followon_entry": false
+  },
+  {
+    "affinity_entity_id": 880742595,
+    "name": "Cloudspire Ledger",
+    "domain": "cloudspireledger.ai",
+    "status": "Portfolio Fund3",
+    "taxonomy": "Infrastructure",
+    "series": "Series B",
+    "list_created_at": "2026-01-05T12:01:26Z",
+    "followon_entry": false
+  },
+  {
+    "affinity_entity_id": 487759649,
+    "name": "Driftmark Pay",
+    "domain": "driftmarkpay.co",
+    "status": "Portfolio Fund1",
+    "taxonomy": "Data & analytics (incl. AI)",
+    "series": "Seed",
+    "list_created_at": "2023-04-26T15:32:36Z",
+    "followon_entry": false
+  },
+  {
+    "affinity_entity_id": 209863741,
+    "name": "Emberglass",
+    "domain": "emberglass.com",
+    "status": "Portfolio Fund1",
+    "taxonomy": "Capital markets",
+    "series": "Series D",
+    "list_created_at": "2022-11-22T18:04:00Z",
+    "followon_entry": false
+  },
+  {
+    "affinity_entity_id": 643449948,
+    "name": "Fenwick Markets",
+    "domain": "fenwickmarkets.io",
+    "status": "Portfolio Fund1",
+    "taxonomy": "Payments",
+    "series": "Pre-Seed",
+    "list_created_at": "2025-03-12T15:56:54Z",
+    "followon_entry": true
+  },
+  {
+    "affinity_entity_id": 108269561,
+    "name": "Glenridge Treasury",
+    "domain": "glenridgetreasury.ai",
+    "status": "Portfolio Fund1",
+    "taxonomy": "Payments",
+    "series": "Series C",
+    "list_created_at": "2021-07-22T15:12:22Z",
+    "followon_entry": false
+  },
+  {
+    "affinity_entity_id": 649305703,
+    "name": "Hartstone Credit",
+    "domain": "hartstonecredit.co",
+    "status": "Portfolio Fund1",
+    "taxonomy": "Alternatives",
+    "series": "Series B",
+    "list_created_at": "2021-10-07T08:34:18Z",
+    "followon_entry": false
+  },
+  {
+    "affinity_entity_id": 181016131,
+    "name": "Ironvale",
+    "domain": "ironvale.com",
+    "status": "Portfolio Fund1",
+    "taxonomy": "Lending",
+    "series": "Series A",
+    "list_created_at": "2022-11-22T17:56:58Z",
+    "followon_entry": false
+  },
+  {
+    "affinity_entity_id": 693074085,
+    "name": "Juniper Cover",
+    "domain": "junipercover.io",
+    "status": "Portfolio Fund1",
+    "taxonomy": "Lending",
+    "series": "Series A",
+    "list_created_at": "2022-11-22T17:54:21Z",
+    "followon_entry": false
+  },
+  {
+    "affinity_entity_id": 792494088,
+    "name": "Kelpwater Data",
+    "domain": "kelpwaterdata.ai",
+    "status": "Portfolio Fund1",
+    "taxonomy": "Lending",
+    "series": "Seed Extension",
+    "list_created_at": "2023-09-19T10:15:34Z",
+    "followon_entry": false
+  },
+  {
+    "affinity_entity_id": 880747776,
+    "name": "Larkfield Pay",
+    "domain": "larkfieldpay.co",
+    "status": "Portfolio Fund1",
+    "taxonomy": "Alternatives",
+    "series": "Pre-Seed",
+    "list_created_at": "2024-07-12T16:38:33Z",
+    "followon_entry": false
+  },
+  {
+    "affinity_entity_id": 657671777,
+    "name": "Mistgate Wealth",
+    "domain": "mistgatewealth.com",
+    "status": "Portfolio Fund1",
+    "taxonomy": "Wealth management",
+    "series": "Series A",
+    "list_created_at": "2023-04-24T09:46:47Z",
+    "followon_entry": false
+  },
+  {
+    "affinity_entity_id": 141695408,
+    "name": "Nightshade Ledger",
+    "domain": "nightshadeledger.io",
+    "status": "Portfolio Fund1",
+    "taxonomy": "Lending",
+    "series": "Series A",
+    "list_created_at": "2022-03-22T19:35:03Z",
+    "followon_entry": false
+  },
+  {
+    "affinity_entity_id": 170115641,
+    "name": "Oakspire Finance",
+    "domain": "oakspirefinance.ai",
+    "status": "Portfolio Fund1",
+    "taxonomy": "Insurance",
+    "series": "Seed",
+    "list_created_at": "2023-04-06T18:05:20Z",
+    "followon_entry": false
+  },
+  {
+    "affinity_entity_id": 885642236,
+    "name": "Pinehollow",
+    "domain": "pinehollow.co",
+    "status": "Portfolio Fund1",
+    "taxonomy": "Payments",
+    "series": "Seed Extension",
+    "list_created_at": "2022-01-25T09:56:55Z",
+    "followon_entry": false
+  },
+  {
+    "affinity_entity_id": 837716132,
+    "name": "Quicksilver Markets",
+    "domain": "quicksilvermarkets.com",
+    "status": "Portfolio Fund1",
+    "taxonomy": "Wealth management",
+    "series": "Series A Extension",
+    "list_created_at": "2022-01-18T20:26:33Z",
+    "followon_entry": false
+  },
+  {
+    "affinity_entity_id": 749969228,
+    "name": "Ravensmoor Capital",
+    "domain": "ravensmoorcapital.io",
+    "status": "Portfolio Fund1",
+    "taxonomy": "Payments",
+    "series": "Series A Extension",
+    "list_created_at": "2022-02-28T16:21:24Z",
+    "followon_entry": false
+  },
+  {
+    "affinity_entity_id": 592373085,
+    "name": "Silverbrook Lending",
+    "domain": "silverbrooklending.ai",
+    "status": "Portfolio Fund1",
+    "taxonomy": "Payments",
+    "series": "Series B",
+    "list_created_at": "2021-06-22T21:27:55Z",
+    "followon_entry": true
+  },
+  {
+    "affinity_entity_id": 819573845,
+    "name": "Thornfield Insight",
+    "domain": "thornfieldinsight.co",
+    "status": "Portfolio Fund1",
+    "taxonomy": "Green finance & ESG",
+    "series": "Series B",
+    "list_created_at": "2023-11-16T16:09:38Z",
+    "followon_entry": false
+  },
+  {
+    "affinity_entity_id": 545244767,
+    "name": "Upwell Compliance",
+    "domain": "upwellcompliance.com",
+    "status": "Portfolio Fund1",
+    "taxonomy": "Payments",
+    "series": "Seed",
+    "list_created_at": "2024-06-13T18:49:09Z",
+    "followon_entry": false
+  },
+  {
+    "affinity_entity_id": 838388764,
+    "name": "Vaultstone",
+    "domain": "vaultstone.io",
+    "status": "Portfolio Fund1",
+    "taxonomy": "Insurance",
+    "series": "Seed",
+    "list_created_at": "2023-01-13T11:37:41Z",
+    "followon_entry": false
+  },
+  {
+    "affinity_entity_id": 164783163,
+    "name": "Wraithmoor Data",
+    "domain": "wraithmoordata.ai",
+    "status": "Portfolio Fund1",
+    "taxonomy": "Payments",
+    "series": "Seed Extension",
+    "list_created_at": "2021-10-05T21:09:06Z",
+    "followon_entry": false
+  },
+  {
+    "affinity_entity_id": 653155301,
+    "name": "Yellowbrick Treasury",
+    "domain": "yellowbricktreasury.co",
+    "status": "Portfolio Fund1",
+    "taxonomy": "Lending",
+    "series": "Pre-Seed",
+    "list_created_at": "2024-03-15T10:42:29Z",
+    "followon_entry": false
+  },
+  {
+    "affinity_entity_id": 742543536,
+    "name": "Ashfen Credit",
+    "domain": "ashfencredit.com",
+    "status": "Portfolio Fund1",
+    "taxonomy": "Wealth management",
+    "series": "Series A",
+    "list_created_at": "2021-10-14T13:21:57Z",
+    "followon_entry": false
+  },
+  {
+    "affinity_entity_id": 332008117,
+    "name": "Bellmoor",
+    "domain": "bellmoor.io",
+    "status": "Portfolio Fund1",
+    "taxonomy": "Capital markets",
+    "series": "Seed",
+    "list_created_at": "2022-11-22T17:48:48Z",
+    "followon_entry": false
+  },
+  {
+    "affinity_entity_id": 263419048,
+    "name": "Copperline Pay",
+    "domain": "copperlinepay.ai",
+    "status": "Portfolio Fund1",
+    "taxonomy": "Data & analytics (incl. AI)",
+    "series": "Pre-Seed",
+    "list_created_at": "2024-05-23T12:35:10Z",
+    "followon_entry": false
+  },
+  {
+    "affinity_entity_id": 673239696,
+    "name": "Duskwater Risk",
+    "domain": "duskwaterrisk.co",
+    "status": "Portfolio Fund1",
+    "taxonomy": "Data & analytics (incl. AI)",
+    "series": "Series A",
+    "list_created_at": "2023-02-12T23:55:23Z",
+    "followon_entry": false
+  },
+  {
+    "affinity_entity_id": 660145189,
+    "name": "Everglen Markets",
+    "domain": "everglenmarkets.com",
+    "status": "Portfolio Fund1",
+    "taxonomy": "Wealth management",
+    "series": "Pre-Seed",
+    "list_created_at": "2025-03-24T13:28:29Z",
+    "followon_entry": false
+  },
+  {
+    "affinity_entity_id": 215984798,
+    "name": "Foxhollow Capital",
+    "domain": "foxhollowcapital.io",
+    "status": "Portfolio Fund1",
+    "taxonomy": "Alternatives",
+    "series": "Series A",
+    "list_created_at": "2022-11-22T17:45:22Z",
+    "followon_entry": false
+  },
+  {
+    "affinity_entity_id": 680014171,
+    "name": "Greywick Ledger",
+    "domain": "greywickledger.ai",
+    "status": "Portfolio Fund1",
+    "taxonomy": "Lending",
+    "series": "Series A",
+    "list_created_at": "2023-03-13T14:20:20Z",
+    "followon_entry": false
+  },
+  {
+    "affinity_entity_id": 818127659,
+    "name": "Hollowbrook",
+    "domain": "hollowbrook.co",
+    "status": "Portfolio Fund1",
+    "taxonomy": "Capital markets",
+    "series": "Series A",
+    "list_created_at": "2024-01-24T22:02:16Z",
+    "followon_entry": false
+  },
+  {
+    "affinity_entity_id": 319910684,
+    "name": "Ivorypeak Data",
+    "domain": "ivorypeakdata.com",
+    "status": "Portfolio Fund1",
+    "taxonomy": "Alternatives",
+    "series": "Series A",
+    "list_created_at": "2023-05-02T14:52:58Z",
+    "followon_entry": false
+  },
+  {
+    "affinity_entity_id": 515344262,
+    "name": "Jetstream Finance",
+    "domain": "jetstreamfinance.io",
+    "status": "Portfolio Fund1",
+    "taxonomy": "Wealth management",
+    "series": "Seed",
+    "list_created_at": "2024-11-29T13:54:41Z",
+    "followon_entry": false
+  },
+  {
+    "affinity_entity_id": 284496913,
+    "name": "Kingsmere Pay",
+    "domain": "kingsmerepay.ai",
+    "status": "Portfolio Fund1",
+    "taxonomy": "Wealth management",
+    "series": "Seed",
+    "list_created_at": "2023-05-03T09:57:04Z",
+    "followon_entry": false
+  },
+  {
+    "affinity_entity_id": 411151907,
+    "name": "Loamfield",
+    "domain": "loamfield.co",
+    "status": "Portfolio Fund1",
+    "taxonomy": "Data & analytics (incl. AI)",
+    "series": "Series B",
+    "list_created_at": "2024-04-23T11:24:06Z",
+    "followon_entry": false
+  },
+  {
+    "affinity_entity_id": 375476221,
+    "name": "Marlstone Treasury",
+    "domain": "marlstonetreasury.com",
+    "status": "Portfolio Fund2",
+    "taxonomy": "Wealth management",
+    "series": "Seed",
+    "list_created_at": "2025-08-03T23:35:18Z",
+    "followon_entry": false
+  },
+  {
+    "affinity_entity_id": 433787714,
+    "name": "Nettlefield Insurance",
+    "domain": "nettlefieldinsurance.io",
+    "status": "Portfolio Fund2",
+    "taxonomy": "Payments",
+    "series": "Pre-Seed",
+    "list_created_at": "2026-01-28T22:25:03Z",
+    "followon_entry": false
+  },
+  {
+    "affinity_entity_id": 208691209,
+    "name": "Overbay Wealth",
+    "domain": "overbaywealth.ai",
+    "status": "Portfolio Fund2",
+    "taxonomy": "Data & analytics (incl. AI)",
+    "series": "Pre-Seed",
+    "list_created_at": "2025-10-17T12:51:31Z",
+    "followon_entry": false
+  },
+  {
+    "affinity_entity_id": 519774760,
+    "name": "Pemberline",
+    "domain": "pemberline.co",
+    "status": "Portfolio Fund2",
+    "taxonomy": "Payments",
+    "series": "Pre-Seed",
+    "list_created_at": "2026-01-20T13:17:58Z",
+    "followon_entry": false
+  },
+  {
+    "affinity_entity_id": 779531186,
+    "name": "Quarryfen",
+    "domain": "quarryfen.com",
+    "status": "Portfolio Fund2",
+    "taxonomy": "Data & analytics (incl. AI)",
+    "series": "Seed",
+    "list_created_at": "2025-10-14T16:26:07Z",
+    "followon_entry": false
+  },
+  {
+    "affinity_entity_id": 494728734,
+    "name": "Rimewater Markets",
+    "domain": "rimewatermarkets.io",
+    "status": "Portfolio Fund2",
+    "taxonomy": "Data & analytics (incl. AI)",
+    "series": "Pre-Seed",
+    "list_created_at": "2025-10-01T08:00:16Z",
+    "followon_entry": false
+  },
+  {
+    "affinity_entity_id": 976852335,
+    "name": "Stormvane Capital",
+    "domain": "stormvanecapital.ai",
+    "status": "Portfolio Fund2",
+    "taxonomy": "Data & analytics (incl. AI)",
+    "series": "Series A",
+    "list_created_at": "2024-12-20T20:51:58Z",
+    "followon_entry": false
+  },
+  {
+    "affinity_entity_id": 168586540,
+    "name": "Timberline Data",
+    "domain": "timberlinedata.co",
+    "status": "Portfolio Fund2",
+    "taxonomy": "Business Services",
+    "series": "Seed",
+    "list_created_at": "2025-03-21T16:03:46Z",
+    "followon_entry": false
+  },
+  {
+    "affinity_entity_id": 223333631,
+    "name": "Underglen Credit",
+    "domain": "underglencredit.com",
+    "status": "Portfolio Fund2",
+    "taxonomy": "Wealth management",
+    "series": "Seed",
+    "list_created_at": "2026-06-25T15:38:46Z",
+    "followon_entry": false
+  },
+  {
+    "affinity_entity_id": 227716903,
+    "name": "Vesselwick",
+    "domain": "vesselwick.io",
+    "status": "Portfolio Fund2",
+    "taxonomy": "Infrastructure",
+    "series": "Pre-Seed",
+    "list_created_at": "2025-06-26T18:34:48Z",
+    "followon_entry": false
+  },
+  {
+    "affinity_entity_id": 541678712,
+    "name": "Waverstone Pay",
+    "domain": "waverstonepay.ai",
+    "status": "Portfolio Fund2",
+    "taxonomy": "Stealth",
+    "series": "Origination",
+    "list_created_at": "2025-07-31T21:10:26Z",
+    "followon_entry": false
+  },
+  {
+    "affinity_entity_id": 434788502,
+    "name": "Xandermoor",
+    "domain": "xandermoor.co",
+    "status": "Realised",
+    "taxonomy": "Alternatives",
+    "series": "Series A",
+    "list_created_at": "2023-01-09T17:50:50Z",
+    "followon_entry": false
+  },
+  {
+    "affinity_entity_id": 633957404,
+    "name": "Yarrowfield Ledger",
+    "domain": "yarrowfieldledger.com",
+    "status": "Realised",
+    "taxonomy": "Alternatives",
+    "series": "Seed Extension",
+    "list_created_at": "2023-05-11T20:41:13Z",
+    "followon_entry": false
+  },
+  {
+    "affinity_entity_id": 320812999,
+    "name": "Zephyrline Finance",
+    "domain": "zephyrlinefinance.io",
+    "status": "Realised",
+    "taxonomy": "Payments",
+    "series": "Pre-Seed",
+    "list_created_at": "2022-08-05T15:08:04Z",
+    "followon_entry": false
+  },
+  {
+    "affinity_entity_id": 361298217,
+    "name": "Brightfen Data",
+    "domain": "brightfendata.ai",
+    "status": "Realised",
+    "taxonomy": "Insurance",
+    "series": "Series A",
+    "list_created_at": "2024-02-26T15:51:42Z",
+    "followon_entry": false
+  }
+]
